@@ -27,7 +27,7 @@ const serviceGridItems: ServiceGridItem[] = [
     id: 'portable-ac',
     title: 'Portable AC',
     description: 'Flexible mobile cooling solutions for warehouses, pop-up events, and temporary spaces.',
-    image: '/images/portable.jpeg',
+    image: '/images/portablee-ac.jpg.jpeg',
     features: ['No Installation', 'Plug & Play', 'Easy Mobility'],
     whatsappMessage: 'Hello, I need Portable AC units for my business. Please share details.',
   },

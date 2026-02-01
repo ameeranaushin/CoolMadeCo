@@ -229,7 +229,7 @@ export default function Hero() {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-white font-bold text-lg">200+ Tons</p>
+                      <p className="text-white font-bold text-lg">3000+ Tons</p>
                       <p className="text-gray-500 text-sm">Cooling Capacity</p>
                     </div>
                   </div>
