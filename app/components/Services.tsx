@@ -1,8 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import { useInView } from 'framer-motion';
-import { useRef } from 'react';
+import React, { useRef } from 'react';
+import { motion, useInView } from 'framer-motion';
 
 interface Service {
   id: string;
@@ -10,7 +9,7 @@ interface Service {
   description: string;
   features: string[];
   useCases: string[];
-  icon: JSX.Element;
+  icon: React.ReactNode;
   whatsappMessage: string;
 }
 
