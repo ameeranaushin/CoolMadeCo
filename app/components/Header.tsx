@@ -55,9 +55,7 @@ export default function Header() {
           <div className="flex items-center justify-between h-16 sm:h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2 sm:gap-3 focus:outline-none focus-visible:outline-none" onClick={closeMenu}>
-              <div className="w-9 h-9 sm:w-10 sm:h-10 bg-[#2667ff] rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-base sm:text-lg">CM</span>
-              </div>
+              <img src="/images/logo.png" alt="Cool Made & Co." className="h-9 sm:h-10 w-auto" />
               <span className="text-lg sm:text-xl font-bold text-white tracking-tight">
                 Cool Made & Co.
               </span>
