@@ -53,8 +53,16 @@ export default function Header() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
           <div className="flex items-center justify-between h-16 sm:h-20">
-            {/* B2B Badge - Desktop (Left) */}
-            <div className="hidden md:flex items-center gap-6 flex-1">
+            {/* Logo - Left */}
+            <Link href="/" className="flex items-center gap-2 sm:gap-3 focus:outline-none focus-visible:outline-none flex-1" onClick={closeMenu}>
+              <img src="/images/c mark.png" alt="Cool Made & Co." className="h-9 sm:h-10 w-auto" />
+              <span className="text-lg sm:text-xl font-bold text-white tracking-tight">
+                Cool Made & Co.
+              </span>
+            </Link>
+
+            {/* B2B Badge - Center */}
+            <div className="hidden md:flex items-center gap-6 flex-1 justify-center">
               <div className="flex items-center gap-2 px-4 py-2 bg-[#2667ff]/10 rounded-full border border-[#2667ff]/20">
                 <div className="w-2 h-2 bg-[#2667ff] rounded-full animate-pulse" />
                 <span className="text-sm font-semibold text-[#2667ff] uppercase tracking-wide">
@@ -62,14 +70,6 @@ export default function Header() {
                 </span>
               </div>
             </div>
-
-            {/* Logo - Center */}
-            <Link href="/" className="flex items-center gap-2 sm:gap-3 focus:outline-none focus-visible:outline-none absolute left-1/2 transform -translate-x-1/2 md:static md:transform-none md:flex-1 md:justify-center" onClick={closeMenu}>
-              <img src="/images/c mark.png" alt="Cool Made & Co." className="h-9 sm:h-10 w-auto" />
-              <span className="text-lg sm:text-xl font-bold text-white tracking-tight">
-                Cool Made & Co.
-              </span>
-            </Link>
 
             {/* Navigation - Desktop (Right) */}
             <nav className="hidden lg:flex items-center gap-8 flex-1 justify-end">

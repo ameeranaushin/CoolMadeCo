@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -37,9 +38,13 @@ export default function Footer() {
             {/* Brand */}
             <div className="lg:col-span-2">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 bg-[#2667ff] rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">CM</span>
-                </div>
+                <Image
+                  src="/images/c mark.png"
+                  alt="Cool Made & Co. Logo"
+                  width={40}
+                  height={40}
+                  className="rounded-lg"
+                />
                 <span className="text-xl font-bold tracking-tight">Cool Made & Co.</span>
               </div>
               <p className="text-gray-400 leading-relaxed mb-6 max-w-md">
